@@ -1,0 +1,79 @@
+# 忽略所有文件
+/*
+
+# 不忽略重要的配置文件和文档
+!/README.md
+!/requirements.txt
+!/start_all.sh
+!/start_windows.bat
+!/.env.example
+!/pyproject.toml
+!/setup.py
+!/docker-compose.yml
+!/alembic.ini
+!/.gitignore
+!/.gitattributes
+
+# 不忽略 src 目录
+!/src/
+
+# 忽略 src 目录下的特定文件和目录
+/src/**/*.pyc
+/src/**/*.pyo
+/src/**/__pycache__/
+/src/**/logs/
+/src/**/charts/
+/src/**/cache/
+/src/output/**/*.log
+/src/output/**/*.png
+/src/output/**/*.jpg
+/src/output/**/*.jpeg
+/src/output/Talk2Data/logs/
+/src/output/pandasai/charts/
+/src/output/pandasai/cache/
+PRD/
+cache/
+output/
+exports/
+
+# 不忽略 data 目录结构
+!/data/
+/data/**/*.db
+/data/**/*.sqlite
+/data/**/*.sqlite3
+/data/**/*.csv
+/data/db/
+/data/csv/
+/data/sqlitepy/
+/data/db_columns1.json
+/data/akshare/kezhuanzhai.py
+/data/da.md
+/data/db_columns_names.json
+/data/sql_output/mysql_dump_20250122_002643.sql
+
+# 环境文件
+.env
+
+# IDE 文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 虚拟环境
+venv/
+env/
+.venv/
+.python-version
+.cursor/
+node_modules/
+
+# 日志文件
+*.log
+logs/
+
+data/
